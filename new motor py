@@ -57,7 +57,7 @@ class Motor(object):
             else:  # only other motor is the right motor
                 self.IN1.off()
                 self.IN2.on()
-        if direction == 0:
+        else:
             if self.side == "left":
                 self.IN1.off()
                 self.IN2.on()
